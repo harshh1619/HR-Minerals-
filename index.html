@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HR Minerals — Natural Water, Naturally Premium</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* small custom styles for bottle label overlays */
+    .bottle-card { position: relative; overflow: hidden; border-radius: 1rem; }
+    .label-badge {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 18%;
+      background: #2f855a; /* green plastic */
+      padding: 6px 18px;
+      border-radius: 9999px;
+      font-weight: 700;
+      color: white; /* white print on green */
+      font-family: 'Poppins', sans-serif;
+      box-shadow: 0 6px 18px rgba(47,133,90,0.18);
+      letter-spacing: 0.6px;
+      font-size: 18px;
+    }
+    /* gentle wave background */
+    .hero-wave { background: linear-gradient(180deg,#e6fff4 0%, #f0fff9 50%, #ffffff 100%); }
+    .glass-glow { box-shadow: 0 12px 40px rgba(47,133,90,0.12); }
+    @media (min-width: 1024px) {
+      .label-badge { font-size: 20px; padding: 8px 22px; }
+    }
+  </style>
+</head>
+<body class="antialiased text-gray-800">
+
+  <!-- NAV -->
+  <header class="bg-white/60 sticky top-0 backdrop-blur z-40">
+    <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+      <a href="#home" class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-green-500 to-emerald-400 flex items-center justify-center text-white font-bold">HR</div>
+        <div>
+          <div class="font-extrabold text-lg">HR Minerals</div>
+          <div class="text-xs text-green-600">Natural Water — Naturally Premium</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex gap-6 items-center text-sm">
+        <a href="#home" class="hover:text-green-600">Home</a>
+        <a href="#about" class="hover:text-green-600">About Us</a>
+        <a href="#products" class="hover:text-green-600">Products</a>
+        <a href="#contact" class="hover:text-green-600">Contact</a>
+        <a href="https://wa.me/918009241617" target="_blank" class="ml-4 inline-flex items-center gap-2 bg-green-600 text-white py-2 px-3 rounded-md">📱 WhatsApp</a>
+      </nav>
+      <div class="md:hidden">
+        <!-- mobile simple nav anchor links -->
+        <a href="#contact" class="inline-flex items-center gap-2 bg-green-600 text-white py-2 px-3 rounded-md">📱 WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO / HOME -->
+  <section id="home" class="hero-wave py-16">
+    <div class="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">🌊 HR Minerals – Natural Water, Naturally Premium</h1>
+        <p class="mt-6 text-lg leading-relaxed">Welcome to <strong>HR Minerals</strong> — The Soul of Pure Hydration.<br>
+        Har drop ke saath hum sirf paani nahi, balki nature ki asli freshness aap tak laate hain.
+        HR Minerals ek premium natural mineral water brand hai jo har sip mein nature ki energy, purity aur balance lekar aata hai.</p>
+
+        <p class="mt-4">Jamin se aane wala hamara paani apni natural minerals aur freshness ke liye jaana jaata hai. No chemicals, no compromise — bas wahi paani jo prakriti ne khud banaya hai.</p>
+
+        <blockquote class="mt-6 p-4 bg-white rounded-lg shadow-sm border-l-4 border-green-400">
+          “HR Minerals – Nature se paida, purity ke saath bottling.”
+        </blockquote>
+
+        <div class="mt-6 flex gap-3">
+          <a href="#products" class="bg-emerald-600 text-white py-3 px-5 rounded-lg font-medium shadow glass-glow">Explore Products</a>
+          <a href="https://wa.me/918009241617" target="_blank" class="border border-green-600 text-green-700 py-3 px-5 rounded-lg">Contact on WhatsApp</a>
+        </div>
+
+        <div class="mt-8 grid grid-cols-3 gap-3">
+          <!-- Bottle thumbnails with label overlays -->
+          <div class="bottle-card bg-white rounded-lg overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1563379926070-6b0b6f6a6b4d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" alt="water bottle" class="w-full h-40 object-cover" />
+            <div class="label-badge">HR Waters</div>
+          </div>
+          <div class="bottle-card bg-white rounded-lg overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1500301807813-c5ecf1f5b9e6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=2" alt="water bottle 2" class="w-full h-40 object-cover" />
+            <div class="label-badge">HR Minerals</div>
+          </div>
+          <div class="bottle-card bg-white rounded-lg overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1505575967452-2a5b1b5f6c3b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3" alt="water bottle 3" class="w-full h-40 object-cover" />
+            <div class="label-badge">HR Waters</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex justify-center lg:justify-end">
+        <!-- Large hero bottle mockup -->
+        <div class="w-72 lg:w-96">
+          <div class="rounded-3xl overflow-hidden shadow-lg bottle-card">
+            <img src="https://images.unsplash.com/photo-1526406915895-3f97b7b2a7a8?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=4" alt="hero bottle" class="w-full h-96 object-cover" />
+            <!-- green sticker with white text to represent 'HR Waters' printed on green plastic -->
+            <div class="label-badge" style="bottom: 22%">HR Waters</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-2xl font-bold">💧 About Us</h2>
+        <p class="mt-4">HR Minerals ki kahani ek simple idea se shuru hui —<br>
+        “Jo paani hum peete hain, woh utna hi pure ho jitna hum sapne dekhte hain.”</p>
+
+        <p class="mt-4">Hamari team ne desh ke pristine natural sources se woh paani chuna hai jisme har drop mein natural minerals maujood hain. Modern purification technology ke saath hum ensure karte hain ki har bottle ek perfect blend ho — natural taste + guaranteed safety.</p>
+
+        <p class="mt-4">Hum believe karte hain ki paani sirf thirst quencher nahi, balki life enhancer hai. Isliye HR Minerals ka har bottle ek commitment hai — purity, health aur sustainability ka.</p>
+
+        <p class="mt-4 font-semibold italic">“From the heart of nature, to the heart of people.”</p>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bottle-card rounded-xl overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1489988580673-5d5b5e2b4b5a?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=5" alt="about bottle" class="w-full h-48 object-cover" />
+          <div class="label-badge" style="bottom:12%">HR Minerals</div>
+        </div>
+        <div class="bottle-card rounded-xl overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1526244434298-88fcbcb066b5?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=6" alt="about bottle 2" class="w-full h-48 object-cover" />
+          <div class="label-badge" style="bottom:14%">HR Waters</div>
+        </div>
+        <div class="col-span-2 mt-2 text-sm text-gray-600">Note: Bottle photos above show sample imagery with brand overlays to demonstrate labeling and presentation on the website. You can replace these images with your own product photos for final packaging and marketing.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl font-bold">🥇 Our Products</h2>
+      <p class="mt-3">💦 <strong>HR Minerals – Natural Mineral Water</strong></p>
+
+      <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- product card -->
+        <div class="p-4 bg-white rounded-xl shadow-sm">
+          <h3 class="font-semibold">250 ml</h3>
+          <p class="text-sm text-gray-600 mt-2">Perfect for quick hydration on the go.</p>
+        </div>
+        <div class="p-4 bg-white rounded-xl shadow-sm">
+          <h3 class="font-semibold">500 ml</h3>
+          <p class="text-sm text-gray-600 mt-2">Daily companion for workouts and travel.</p>
+        </div>
+        <div class="p-4 bg-white rounded-xl shadow-sm">
+          <h3 class="font-semibold">1 L</h3>
+          <p class="text-sm text-gray-600 mt-2">Family sized, balanced minerals and crisp taste.</p>
+        </div>
+        <div class="p-4 bg-white rounded-xl shadow-sm">
+          <h3 class="font-semibold">2 L</h3>
+          <p class="text-sm text-gray-600 mt-2">For gatherings, hospitality, and events.</p>
+        </div>
+      </div>
+
+      <div class="mt-6">
+        <ul class="list-disc ml-5 text-gray-700">
+          <li>100% food-grade recyclable bottles</li>
+          <li>Naturally balanced pH (7.2 – 7.5)</li>
+          <li>Fresh, crisp, and smooth taste</li>
+        </ul>
+
+        <p class="mt-4">Perfect for: <br>
+        ✅ Daily hydration<br>
+        ✅ Fitness lovers<br>
+        ✅ Premium hospitality & corporate use<br>
+        ✅ Events, travel & gifting</p>
+
+        <p class="mt-4 italic">“Har sip, ek fresh start.”</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUSTAINABILITY -->
+  <section id="sustainability" class="py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl font-bold">🌱 Sustainability & Promise</h2>
+      <p class="mt-4">Hum jaante hain ki nature ne humein yeh gift diya hai — aur us gift ko protect karna hamari zimmedari hai.</p>
+
+      <p class="mt-4">HR Minerals eco-friendly packaging aur recycling initiatives ke saath environment ke prati committed hai. Hamari bottles 100% recyclable hain aur hum continuously apne carbon footprint ko kam karne par kaam kar rahe hain.</p>
+
+      <blockquote class="mt-4 p-4 bg-green-50 rounded-lg border-l-4 border-green-400">“Pure water, pure earth, pure intentions.”</blockquote>
+
+      <div class="mt-6 grid md:grid-cols-3 gap-4">
+        <div class="p-4 bg-white rounded-lg shadow-sm">
+          <h4 class="font-semibold">Recyclable Bottles</h4>
+          <p class="text-sm text-gray-600 mt-2">100% food-grade recyclable plastics used in our bottles.</p>
+        </div>
+        <div class="p-4 bg-white rounded-lg shadow-sm">
+          <h4 class="font-semibold">Reduced Footprint</h4>
+          <p class="text-sm text-gray-600 mt-2">Packaging and transport strategies to minimize emissions.</p>
+        </div>
+        <div class="p-4 bg-white rounded-lg shadow-sm">
+          <h4 class="font-semibold">Community Programs</h4>
+          <p class="text-sm text-gray-600 mt-2">Local clean-water & recycling awareness initiatives.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAGLINES -->
+  <section class="py-12 bg-emerald-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-xl font-bold">📣 Short Taglines & Social Media Lines</h3>
+      <div class="mt-4 grid md:grid-cols-3 gap-4 text-sm text-gray-700">
+        <div>HR Minerals – Pure from Nature, Perfect for You.</div>
+        <div>Har sip mein feel karo freshness ka magic.</div>
+        <div>Naturally rich, beautifully pure.</div>
+        <div>A bottle full of mountain energy.</div>
+        <div>Piyo HR Minerals, jeeyo naturally.</div>
+        <div>Because purity never goes out of style.</div>
+        <div>Stay hydrated, stay natural.</div>
+        <div>Har drop ek promise of purity.</div>
+        <div>Not just water — it’s wellness.</div>
+      </div>
+
+      <p class="mt-6 font-semibold">HR Minerals – The Signature of Natural Purity.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-2xl font-bold">Contact Us</h2>
+      <p class="mt-3">For orders, enquiries or collaborations — reach us anytime.</p>
+
+      <div class="mt-6 bg-white p-6 rounded-xl shadow-sm">
+        <p class="text-lg font-semibold">📞 WhatsApp: <a href="https://wa.me/918009241617" target="_blank" class="text-green-600">+91 80092 41617</a></p>
+        <p class="mt-2 text-sm text-gray-600">Contact us 24/7</p>
+
+        <form class="mt-6 grid gap-3">
+          <input class="border rounded-md p-3" placeholder="Your name" />
+          <input class="border rounded-md p-3" placeholder="Email" />
+          <textarea class="border rounded-md p-3" rows="4" placeholder="Message"></textarea>
+          <div class="flex justify-center">
+            <button class="bg-green-600 text-white py-2 px-6 rounded-md">Send Message</button>
+          </div>
+        </form>
+
+        <p class="mt-4 text-xs text-gray-500">We will respond via WhatsApp. For faster support tap the WhatsApp button above.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-6 bg-white mt-8">
+    <div class="max-w-6xl mx-auto px-6 text-center text-sm text-gray-500">© <strong>HR Minerals</strong> — All Rights Reserved.</div>
+  </footer>
+
+</body>
+</html>
